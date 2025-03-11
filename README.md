@@ -1,3 +1,3 @@
-#Html-Css-JS
+# Html-Css-JS
 
-*html, css, js를 연습하는 공간
+* html, css, js를 연습하는 공간
