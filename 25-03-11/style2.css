@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+h1 { text-align: center; }
+
+header {
+    background: blue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;  /* 🚨 nav를 가운데 정렬 */
+    max-width: 700px;
+
+}
+
+nav {
+    margin-left: 50px;
+    background: red;
+    width: 80%;  /* 🚨 nav 박스를 가운데 정렬 */
+    text-align: left;  /* 🚨 nav 내부 텍스트는 좌측 정렬 */
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    max-width: 700px;
+}
+
+section {
+    text-align: left;
+    background: green;
+    flex: 3;
+    padding: 10px;
+    min-height: 400px;
+}
+
+article {
+    background: lightgreen;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+    min-height: 100px;
+}
+
+aside {
+    background: beige;
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+    background: purple;
+    width: 100%;
+    max-width: 700px;
+    text-align: left;
+    padding: 10px;
+}
